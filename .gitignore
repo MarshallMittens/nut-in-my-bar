@@ -1,0 +1,6 @@
+.shopify/
+.env
+.env.*
+node_modules/
+__pycache__/
+*.zip

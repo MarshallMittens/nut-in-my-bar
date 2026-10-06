@@ -1,0 +1,10 @@
+{
+  "sections": {
+    "main": {
+      "type": "prelaunch-pagina"
+    }
+  },
+  "order": [
+    "main"
+  ]
+}

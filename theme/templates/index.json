@@ -1,0 +1,50 @@
+{
+  "sections": {
+    "hero": {
+      "type": "hero"
+    },
+    "flavours": {
+      "type": "flavours",
+      "blocks": {
+        "0": {
+          "type": "flavour",
+          "settings": {
+            "title": "Peanut After Dark",
+            "copy": "Pinda en cacao als smaakrichting. Voor als braaf niet op het menu staat."
+          }
+        },
+        "1": {
+          "type": "flavour",
+          "settings": {
+            "title": "Salted Ego",
+            "copy": "Gezouten karamel als smaakrichting. Je ego hoeft er niet bij te passen."
+          }
+        },
+        "2": {
+          "type": "flavour",
+          "settings": {
+            "title": "Hazel Hustle",
+            "copy": "Hazelnoot en cacao als smaakrichting. Druk doen kan altijd nog."
+          }
+        }
+      },
+      "block_order": [
+        "0",
+        "1",
+        "2"
+      ]
+    },
+    "mix": {
+      "type": "mix"
+    },
+    "faq": {
+      "type": "faq"
+    }
+  },
+  "order": [
+    "hero",
+    "flavours",
+    "mix",
+    "faq"
+  ]
+}

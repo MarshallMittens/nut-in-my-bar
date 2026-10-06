@@ -1,0 +1,25 @@
+<section id="mix" class="mix wrap"><div class="mix-art">{% render 'pack' %}{% render 'pack' %}{% render 'pack' %}</div><div><span class="eyebrow">STARTER MIX / CONCEPT</span><h2>{{ section.settings.heading | escape }}</h2><p>{{ section.settings.copy | escape }}</p><a class="button" href="#vragen">Hoe staat het ervoor? ↗</a><p class="small">Samenstelling, aantallen en prijs nog te bepalen. Niet te bestellen.</p></div></section>
+{% schema %}
+{
+  "name": "Mix",
+  "settings": [
+    {
+      "type": "text",
+      "id": "heading",
+      "label": "Titel",
+      "default": "BESLUITELOOS? GOED BEGIN."
+    },
+    {
+      "type": "text",
+      "id": "copy",
+      "label": "Tekst",
+      "default": "Een mix van onze drie smaakconcepten. Eerst proeven, dan pas een favoriet spelen."
+    }
+  ],
+  "presets": [
+    {
+      "name": "Mix"
+    }
+  ]
+}
+{% endschema %}
